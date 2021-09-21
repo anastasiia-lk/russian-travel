@@ -1,0 +1,15 @@
+.website__url-heading {
+  margin: 0 0 12px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+
+  letter-spacing: 2px;
+
+  color: #aaaaaa;
+  padding: 0;
+}
+
+.website__url-heading:after {
+  content: 'URL';
+}

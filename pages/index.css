@@ -42,21 +42,24 @@
 /*places*/
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__cell/places__cell.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/website/website.css);
-@import url(../blocks/website/__title/website__title.css);
-@import url(../blocks/website/__url/website__url.css);
+@import url(../blocks/website/__url-heading/website__url-heading.css);
+@import url(../blocks/website/__link/website__link.css);
 @import url(../blocks/paragraph/paragraph.css);
 
 /*place*/
 
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__cell/place__cell.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
+
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__paragraph/__paragraph_top/place__paragraph_top.css);
 @import url(../blocks/place/__paragraph/__paragraph_bottom/place__paragraph_bottom.css);
