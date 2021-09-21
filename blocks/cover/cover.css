@@ -1,0 +1,11 @@
+.cover {
+  display: flex;
+  padding: 0;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  min-height: 740px; /* c height нормальное позиционирование */
+  position: relative;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+}
