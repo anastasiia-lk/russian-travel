@@ -2,6 +2,10 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/page/page.css);
 
+/*page*/
+@import url(../blocks/page/__intro/page__intro.css);
+@import url(../blocks/page/__places/page__places.css);
+
 /*header*/
 
 @import url(../blocks/header/header.css);
@@ -46,6 +50,16 @@
 @import url(../blocks/website/__title/website__title.css);
 @import url(../blocks/website/__url/website__url.css);
 @import url(../blocks/paragraph/paragraph.css);
+
+/*place*/
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraph/__paragraph_top/place__paragraph_top.css);
+@import url(../blocks/place/__paragraph/__paragraph_bottom/place__paragraph_bottom.css);
 
 /*cover*/
 

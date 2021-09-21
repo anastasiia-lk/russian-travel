@@ -1,0 +1,7 @@
+.place {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 460px;
+  grid-template-columns: 460px 1fr;
+  gap: 80px;
+}
