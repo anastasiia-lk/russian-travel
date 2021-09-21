@@ -3,7 +3,7 @@
   display: grid;
   width: 1184px;
   height: 671px;
-  grid-template-rows: repeat(2, 225px);
-  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(4, 284px);
   gap: 16px;
 }
