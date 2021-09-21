@@ -1,0 +1,10 @@
+.lead__subtitle {
+  grid-column: 1;
+  grid-row: 2;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0;
+  margin: 0 172px 64px;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.lead {
+  display: grid;
+  width: 984px;
+  grid-template-rows: auto auto 615px auto;
+  grid-template-columns: 984px;
+  justify-items: center;
+  align-items: center;
+}
