@@ -5,6 +5,8 @@
   color: #ffffff;
   text-decoration: none;
   margin-right: 18px;
+  padding: 0;
+  margin-bottom: 0;
 }
 
 .footer__link:last-child {
