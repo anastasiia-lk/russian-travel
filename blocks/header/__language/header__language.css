@@ -20,3 +20,10 @@
   text-decoration-line: underline;
   opacity: 0.8;
 }
+
+@media screen and (max-width: 320px) {
+  .header__language {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
