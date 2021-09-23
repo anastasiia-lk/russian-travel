@@ -1,3 +1,4 @@
 .places {
-  width: 984px;
+  /* width: 984px; */
+  /* grid-template-rows: repeat(auto-fill, minmax(984px, 1fr)); */
 }

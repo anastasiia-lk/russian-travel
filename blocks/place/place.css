@@ -1,2 +1,27 @@
 .place {
+  /* width: 100%; */
+  position: relative;
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(660px, 1fr));
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-template-rows: repeat(auto-fill, minmax(640px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    row-gap: 72px;
+    grid-template-rows: repeat(auto-fill, minmax(581px, 1fr));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    row-gap: 50px;
+    grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));
+  }
 }
