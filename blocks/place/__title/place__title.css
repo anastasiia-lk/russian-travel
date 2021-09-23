@@ -2,10 +2,18 @@
   grid-column: 1;
   grid-row: 1;
   font-weight: 900;
+  font-style: normal;
   font-size: 72px;
   line-height: 76px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    align-self: end;
+    justify-self: start;
+  }
 }
 
 @media screen and (max-width: 768px) {
