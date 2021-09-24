@@ -1,0 +1,19 @@
+.paragraph {
+  margin: 0 0 26px;
+}
+
+.paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .paragraph {
+    margin: 0 0 27px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .paragraph {
+    margin: 0 0 25px;
+  }
+}
