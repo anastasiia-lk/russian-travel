@@ -8,7 +8,6 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
-  margin: 48px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -25,7 +24,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
   .cover {
     max-width: 100%;
     min-height: 200px; /* c height нормальное позиционирование */

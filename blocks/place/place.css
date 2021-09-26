@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
   .place {
     row-gap: 50px;
     grid-template-rows: repeat(auto-fill, minmax(320px, 1fr));

@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 688px) {
   .footer__links {
     display: flex;
     flex-direction: column;
