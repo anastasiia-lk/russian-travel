@@ -1,5 +1,7 @@
 .page__intro {
-  margin: 92px 442px 0 148px;
+  max-width: 690px;
+  margin-left: 148px;
+  margin-bottom: 92px;
 }
 
 /* @media screen and (max-width: 1280px) {
@@ -7,8 +9,8 @@
 
 @media screen and (max-width: 1024px) {
   .page__intro {
-    margin-right: 286px;
     margin-left: 48px;
+    max-width: 690px;
   }
 }
 
@@ -16,14 +18,12 @@
   .page__intro {
     margin-top: 88px;
     margin-left: 24px;
-    margin-right: 24px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__intro {
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: 64px;
+    margin: 64px auto 0;
   }
 }

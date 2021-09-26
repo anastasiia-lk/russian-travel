@@ -1,23 +1,23 @@
 .page__footer {
-  margin: 0 48px 24px;
-}
-
-/* @media screen and (max-width: 1280px) {
+  margin: 0 auto 24px;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1024px) {
-} */
-
-@media screen and (max-width: 768px) {
   .page__footer {
-    margin-left: 24px;
-    margin-right: 24px;
+    max-width: 928px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .page__footer {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 688px) {
+  .page__footer {
+    max-width: 186px;
     margin-left: 16px;
-    margin-right: 118px;
   }
 }
