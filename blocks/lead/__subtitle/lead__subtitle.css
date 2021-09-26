@@ -5,23 +5,21 @@
   font-style: normal;
   font-size: 30px;
   line-height: 36px;
-  padding: 0;
-  margin: 32px 172px 64px;
   text-align: center;
-  margin: 0;
-  padding: 32px 0 64px;
+  margin: 32px auto 64px;
   max-width: 640px;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__subtitle {
-    padding-bottom: 56px;
+    margin-bottom: 56px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    padding: 16px 0 40px;
+    max-width: 288px;
+    margin: 16px auto 40px auto;
     font-size: 16px;
     line-height: 20px;
   }

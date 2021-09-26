@@ -8,25 +8,26 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
+  margin: 48px;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
+    max-width: 100%;
     min-height: 640px; /* c height нормальное позиционирование */
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 768px;
+    max-width: 100%;
     min-height: 480px; /* c height нормальное позиционирование */
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover {
-    max-width: 320px;
+    max-width: 100%;
     min-height: 200px; /* c height нормальное позиционирование */
   }
 }

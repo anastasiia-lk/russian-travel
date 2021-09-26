@@ -1,23 +1,27 @@
 @media screen and (max-width: 1280px) {
   .page__lead {
-    margin: 56px 148px 92px;
+    max-width: 984px;
+    margin: 56px auto;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .page__lead {
-    margin: 48px 48px 92px;
+    max-width: 928px;
+    margin: 48px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__lead {
-    margin: 48px 0 88px;
+    max-width: 100%;
+    margin: 48px auto 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__lead {
-    margin: 48px 0 64px;
+    max-width: 100%;
+    margin: 48px auto 64px;
   }
 }
