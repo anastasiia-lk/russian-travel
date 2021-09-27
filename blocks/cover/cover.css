@@ -19,14 +19,12 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    max-width: 100%;
     min-height: 480px; /* c height нормальное позиционирование */
   }
 }
 
 @media screen and (max-width: 688px) {
   .cover {
-    max-width: 100%;
     min-height: 200px; /* c height нормальное позиционирование */
   }
 }
