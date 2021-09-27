@@ -18,4 +18,4 @@
 
 ### GitHub
 
-[Ссылка на GitHub](https://github.com/anastasiia-lk/russian-travel.git)
+[Ссылка на GitHub](https://anastasiia-lk.github.io/russian-travel/)

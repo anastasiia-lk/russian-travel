@@ -43,7 +43,7 @@
 @media screen and (max-width: 688px) {
   .place__cell {
     gap: 32px;
-    grid-template-columns: 320px 1fr;
+    grid-template-columns: minmax(320px, 1fr);
     /* grid-template-rows: repeat(auto-fill, minmax(320px, 1fr)); */
     grid-template-rows: auto auto minmax(320px, 1fr) auto;
     /* grid-template-columns: minmax(320px, 1fr); */
