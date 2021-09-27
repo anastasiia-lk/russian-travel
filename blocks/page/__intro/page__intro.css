@@ -1,29 +1,26 @@
 .page__intro {
-  max-width: 690px;
-  margin-left: 148px;
-  margin-bottom: 92px;
+  margin: 0 auto 92px;
 }
 
-/* @media screen and (max-width: 1280px) {
-} */
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 971px) {
   .page__intro {
-    margin-left: 48px;
-    max-width: 690px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .page__intro {
     margin-top: 88px;
-    margin-left: 24px;
-    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .page__intro {
-    margin: 64px auto 0;
+    margin-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
