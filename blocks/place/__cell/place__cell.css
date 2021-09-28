@@ -18,7 +18,7 @@
   .place__cell {
     gap: 48px 32px;
     grid-template-columns: 440px 1fr;
-    /* grid-template-rows: auto minmax(440px, 1fr); */
+    grid-template-rows: auto minmax(440px, 1fr);
     /* grid-template-columns: 440px auto; */
   }
 }
@@ -27,7 +27,8 @@
   .place__cell {
     gap: 48px 28px;
     grid-template-columns: 340px 1fr;
-    /* grid-template-rows: auto minmax(340px, 1fr); */
+    grid-template-rows: auto minmax(340px, 1fr);
+    /* grid-template-rows: auto minmax(434px, 1fr); */
     /* grid-template-columns: 340px auto; */
   }
 }
