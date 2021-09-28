@@ -1,28 +1,18 @@
-.header__language {
+.language {
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
   line-height: 28px;
   /* identical to box height, or 117% */
-  text-decoration-line: none;
-
   color: #ffffff;
 }
 
-.header__language {
-  margin-right: 18px;
-}
-
-.header__language:last-child {
-  margin-right: 0;
-}
-
-.header__language:hover {
+.language:hover {
   opacity: 0.8;
 }
 
 @media screen and (max-width: 719px) {
-  .header__language {
+  .language {
     font-size: 18px;
     line-height: 20px;
   }
